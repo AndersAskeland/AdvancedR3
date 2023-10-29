@@ -1,5 +1,6 @@
 Package: AdvancedR3
 Type: Project
+Title: test
 Version: 0.0.1
 Imports:
     dplyr,
@@ -16,4 +17,7 @@ Imports:
     usethis
 Encoding: UTF-8
 Suggests: 
+    gitcreds,
     renv
+URL: https://github.com/AndersAskeland/AdvancedR3
+BugReports: https://github.com/AndersAskeland/AdvancedR3/issues
