@@ -4,6 +4,11 @@ author: "Your Name"
 format: html
 execute:
   echo: true
+  
+editor_options:
+  markdown:
+    wrap: 72
+    canonical: true
 ---
 
 ## Header 1
@@ -17,3 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Code chunk
 ```
 
+## This is poorly formatted
+
+-   Definitely should have an empty space above this list.
+-   This isn't a list, why not?
