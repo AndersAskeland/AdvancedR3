@@ -1,3 +1,7 @@
+if (interactive()) {
+    suppressMessages(require(usethis))
+}
+
 options(
     renv.settings.snapshot.type = "explicit",
     renv.config.auto.snapshot = TRUE,
